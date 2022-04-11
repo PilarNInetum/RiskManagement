@@ -32,8 +32,7 @@ stages:
         space: dev
         credentialsId: cfdeploy
         appName: "" 
-        username: pilar.navarro@inetum.world
-        password: Badjoz1993
+        user: pilar.navarro@inetum.world
       mtaDeployParameters: "-f --version-rule ALL" 
     artifactPrepareVersion: 
       versioningType: "cloud_noTag"
