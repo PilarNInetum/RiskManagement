@@ -27,12 +27,11 @@ stages:
   steps: 
     cloudFoundryDeploy: 
       cloudFoundry: 
-        apiEndpoint: https://api.cf.us10.hana.ondemand.com 
-        org: fa9f7bfbtrial
-        space: dev
-        credentialsId: cfdeploy
+        apiEndpoint: "https://api.cf.us10.hana.ondemand.com" 
+        org: "fa9f7bfbtrial"
+        space: "dev"
+        credentialsId: "cfdeploy"
         appName: "" 
-        user: pilar.navarro@inetum.world
       mtaDeployParameters: "-f --version-rule ALL" 
     artifactPrepareVersion: 
       versioningType: "cloud_noTag"
